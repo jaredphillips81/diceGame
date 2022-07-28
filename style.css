@@ -1,0 +1,68 @@
+.container{
+    background-image: url("dicepaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 589px;
+}
+h1{
+    display:flex;
+    justify-content: space-evenly;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 35px;
+    color:rgb(80, 80, 80);
+    font-size: 47px;
+    font-weight: 200;
+    padding-top: 15px;
+}
+
+.diceContainer{
+    display: flex;
+    justify-content: space-evenly;  
+}
+.player-and-score-box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 21px;
+}
+.player{
+    display:flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 25px;
+    margin-top: 5px;
+    color: rgb(80, 80, 80);
+}
+.score{
+    display:flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 35px;
+    margin-top: 15px;
+    color: rgb(80, 80, 80);
+}
+.btnContainer{
+    display:flex;
+    justify-content: center; 
+    margin-top: 50px;
+}
+button{
+    width: 150px;
+    height: 75px;
+    border-radius: 10px;
+    border-color: rgb(179, 87, 137);
+    box-shadow: 7px 7px 5px rgb(119, 191, 219);
+    font-size: xx-large;
+    font-weight:600;
+    color: rgb(80, 80, 80);
+    
+}
+.copyrightTxt{
+    display:flex;
+    justify-content: center;
+    font-size: x-small;
+    margin-top: 75px;
+    font-family: monospace;
+    color: rgb(51, 50, 50);
+}
